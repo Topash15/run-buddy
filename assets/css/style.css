@@ -120,25 +120,8 @@ section {
     background-color: #024e76;
 }
 
-section h3{
-    font-size: 25px;
-    margin: 0px;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-}
-
 .intro {
     text-align: center;
-}
-
-.primary-border{
-    border-color: #fce138;
 }
 
 .intro p{
@@ -152,10 +135,6 @@ section h3{
 .steps {
     text-align: center;
     background: #fce138;
-}
-
-.secondary-border{
-    border-color: #39a6b2;
 }
 
 .steps div{
@@ -180,4 +159,21 @@ section h3{
 
 .steps span {
     font-size: 38px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+.primary-border{
+    border-color: #fce138;
+}
+
+.secondary-border{
+    border-color: #39a6b2;
 }
