@@ -75,7 +75,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/flipped-hero-image.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -83,6 +83,25 @@ section {
 }
 /* Hero Style End */
 
+/* Hero Text */
+.hero-text{
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.hero-text h2{
+    color:#fce138;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.hero-text p{
+    color:aliceblue;
+}
+
+/* Hero form style */
 .hero-form {
     width: 500px;
     padding: 20px;
@@ -265,4 +284,4 @@ section {
     color: #fce138;
 }
 
-/*Reach out style end*/
+/*Reach out style end
